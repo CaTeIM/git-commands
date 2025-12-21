@@ -1,4 +1,4 @@
-### 📄 Arquivo: `sincronizar-fork.md`
+#### 📄 Arquivo: `sincronizar-fork.md`
 
 # 🔄 Sincronizar Fork (Rebase)
 
@@ -17,7 +17,6 @@ Passo a passo para atualizar seu fork com o repositório original (`upstream`) m
 ```bash
 git rebase upstream/master
 ```
-
 
 3. **Enviar para o seu GitHub (Force Push):**
 ```bash
