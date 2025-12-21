@@ -9,8 +9,8 @@ Passo a passo para atualizar seu fork com o repositório original (`upstream`) m
 ## Procedimento
 
 1. **Baixar atualizações do original:**
-   ```bash
-   git fetch upstream
+```bash
+git fetch upstream
 ```
 
 2. **Aplicar Rebase (seus commits vão para o topo):**
