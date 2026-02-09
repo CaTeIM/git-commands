@@ -5,19 +5,19 @@ Repositório pessoal de documentação para comandos e workflows essenciais do G
 ## Índice
 
 1. **[Sincronizar Fork (Rebase)](sincronizar-fork.md)**
-   - Como atualizar seu fork com o repositório original mantendo o histórico linear e limpo.
+- Como atualizar seu fork com o repositório original mantendo o histórico linear e limpo.
 
 2. **[Workflow de PR Limpo](workflow-pr-limpo.md)**
-   - Passo a passo para criar uma branch, commitar e subir alterações de forma organizada.
+- Passo a passo para criar uma branch, commitar e subir alterações de forma organizada.
 
 3. **[Unificar Commits (Squash)](unificar-commits.md)**
-   - Como transformar vários commits pequenos em um único commit profissional antes do PR.
+- Como transformar vários commits pequenos em um único commit profissional antes do PR.
 
 4. **[Limpeza Pós-Merge](limpeza-pos-merge.md)**
-   - Como apagar branches antigas e limpar referências para economizar espaço e manter a organização.
+- Como apagar branches antigas e limpar referências para economizar espaço e manter a organização.
 
 5. **[Reset Hard (Descartar Alterações)](reset-hard.md)**
-   - Como descartar alterações locais ou voltar para um commit específico (CUIDADO!).
+- Como descartar alterações locais ou voltar para um commit específico (CUIDADO!).
 
 ### Os tipos principais:
 
@@ -26,36 +26,47 @@ O padrão da indústria é o **Conventional Commits**. Ele estrutura a mensagem 
 A estrutura básica é: `tipo(escopo): descrição curta minúscula`
 
 - ✨ **`feat`** (Feature): Criação de uma nova funcionalidade.
+
   **Ex:** `feat(login): adiciona suporte a 2FA`
 
 - 🐛 **`fix`** (Fix): Correção de um bug.
+
   **Ex:** `fix(api): corrige erro 500 no endpoint de usuários`
 
 - 📚 **`docs`** (Documentation): Alterações apenas na documentação (README, Wiki).
+
   **Ex:** `docs: atualiza instruções de instalação`
 
 - 💄 **`style`** (Style): Formatação, espaços, ponto-e-vírgula (não altera lógica de código).
+
   **Ex:** `style: remove espaços em branco extras`
 
 - ♻️ **`refactor`** (Refactoring): Alteração no código que não corrige bug nem adiciona feature (melhoria de estrutura).
+
   **Ex:** `refactor(auth): simplifica lógica de validação de token`
 
 - ⚡ **`perf`** (Performance): Mudança de código para melhorar desempenho.
+
   **Ex:** `perf(db): adiciona index na tabela de logs`
 
 - 🧪 **`test`** (Test): Adição ou correção de testes.
+
   **Ex:** `test: adiciona testes unitários para controller de vendas`
 
 - 🔧 **`chore`** (Chore): Atualizações de tarefas de build, configurações de ferramentas (não altera código de produção).
+
   **Ex:** `chore: atualiza versão do node no dockerfile`
 
 - 📦 **`build`**: Alterações que afetam o sistema de build ou dependências externas (npm, maven, gradle).
+
   **Ex:** `build(deps): atualiza react para v18`
 
 - 👷 **`ci`**: Alterações em arquivos de configuração de CI (GitHub Actions, Travis, CircleCI).
+
   **Ex:** `ci: corrige pipeline de deploy`
 
 - ⏪ **`revert`**: Reverte um commit anterior.
+
   **Ex:** `revert: feat(header): remove botão de busca`
 
 ### Regras Rápidas:
