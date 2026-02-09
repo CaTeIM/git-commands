@@ -23,7 +23,7 @@ Repositório pessoal de documentação para comandos e workflows essenciais do G
 
 O padrão da indústria é o **Conventional Commits**. Ele estrutura a mensagem para facilitar leitura humana e automação (changelogs).
 
-A estrutura básica é: `tipo(escopo): descrição curta`
+A estrutura básica é: `tipo(escopo): descrição curta minúscula`
 
 - ✨ **`feat`** (Feature): Criação de uma nova funcionalidade.
   **Ex:** `feat(login): adiciona suporte a 2FA`
